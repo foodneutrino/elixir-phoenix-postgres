@@ -68,8 +68,8 @@ config :phoenix, :plug_init_mode, :runtime
 
 # Configure your database
 config :elixir_test_app, ElixirTestApp.Repo,
-  username: "postgres",
-  password: "postgres",
-  database: "elixir_test_app_dev",
+  username: "david",
+  password: "",
+  database: "david",
   hostname: "localhost",
   pool_size: 10
